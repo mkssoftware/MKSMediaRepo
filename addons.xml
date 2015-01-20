@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.9gagtv" name="9GAG.TV" version="1.0.2" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="plugin.video.youtube" version="4.4.10" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Videos worth watching.</summary>
+		<summary lang="de">Sehenswerte Videos.</summary>
+		<description lang="en">Videos worth watching. Best videos on the web. Updated daily.</description>
+		<description lang="de">Sehenswerte Videos. Die besten Videos im Internet. Täglich aktualisiert.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://www.9gag.tv/</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.9gagtv</source>
+	</extension>
+</addon>
+
+<addon id="plugin.audio.soundcloud" name="SoundCloud" version="1.1.0" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">SoundCloud is an online audio distribution platform.</summary>
+		<summary lang="de">Soundcloud ist ein Online-Audio-Vertriebsplattform.</summary>
+		<description lang="en">SoundCloud is an online audio distribution platform that enables its users to upload, record, promote and share their originally-created sounds.</description>
+		<description lang="de">Soundcloud ist ein Online-Audio-Vertriebsplattform. Benutzer können ihre ursprünglich erstelle Music hochladen, aufnehmen und unter weiteren Benutzern teilen.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://www.soundcloud.com/</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.audio.soundcloud</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.7tv" name="7TV" version="2.1.3" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">ProSieben, Sat.1, Kabel 1 and Sixx media library</summary>
+		<summary lang="de">Mediathek für ProSieben, Sat.1, Kabel 1 and Sixx</summary>
+		<description lang="en">Experience with 7TV a majority of shipments of ProSieben, SAT.1, kabel eins and sixx directly after the TV broadcast for free and for at least 7 days in full length - and the round-the-clock!</description>
+		<description lang="de">Erleben Sie mit 7TV einen Großteil der Sendungen von ProSieben, SAT.1, kabel eins und sixx direkt nach der TV-Ausstrahlung kostenlos und für mindestens 7 Tage in voller Länge – und das rund um die Uhr!</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.xbmc.org/showthread.php?tid=198550</forum>
+		<website>www.7tv.de</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.7tv</source>
+	</extension>
+</addon>
+
+<addon id="plugin.picture.bromix.break" name="Break Pictures" version="2.0.2" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>image</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch funny pictures from break.com</summary>
+		<summary lang="de">Schaue lustige Bilder von break.com</summary>
+		<description lang="en">Break is the #1 source for funny pictures. Get the hilarious pictures today that will be viral tomorrow. Get the most awesome pictures on Earth today, because being bored sucks.</description>
+		<description lang="de">Break ist die Nr. 1 Quelle für lustige Bilder. Schaue die lustigen Bilder, die morgen schon viral gehen. Hole dir die eindrucksvollsten Bilder der Erde heute, denn Langeweile ist blöd.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://www.break.com/</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.picture.bromix.break</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.bromix.tlc_de" name="TLC.de" version="1.0.4" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">TLC.de media library</summary>
+		<summary lang="de">Mediathek für TLC.de</summary>
+		<description lang="en">TLC.de you'll find a wide range of series such as Cake Boss, Breaking Amish or Honey Boo Boo.</description>
+		<description lang="de">Unter TLC.de findest du ein großes Angebot von Serien wie Cake Boss, Breaking Amish oder Honey Boo Boo.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.xbmc.org/showthread.php?tid=198780</forum>
+		<website>www.tlc.de</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.bromix.tlc_de</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.bromix.dmax_de" name="DMAX.de" version="1.0.4" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">DMAX.de media library</summary>
+		<summary lang="de">Mediathek für DMAX.de</summary>
+		<description lang="en">DMAX.de you'll find a wide range of series such as BEAR GRYLLS, AUCTION HUNTERS, DER GEFÄHRLICHSTE JOB ALASKAS, GOLDRAUSCH IN ALASKA on FAST'N'LOUD, FREESTYLE FISHING, OFFROAD SURVIVORS, MOONSHINERS, DIE GEBRAUCHTWAGEN-PROFIS to the MYTHBUSTERS.</description>
+		<description lang="de">Unter DMAX.de findest du ein großes Angebot von Serien wie BEAR GRYLLS, AUCTION HUNTERS, DER GEFÄHRLICHSTE JOB ALASKAS, GOLDRAUSCH IN ALASKA über FAST’N’LOUD, FREESTYLE-FISCHEN, OFFROAD SURVIVORS, MOONSHINERS, DIE GEBRAUCHTWAGEN-PROFIS bis hin zu den MYTHBUSTERS.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.xbmc.org/showthread.php?tid=198780</forum>
+		<website>www.dmax.de</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.bromix.dmax_de</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.netzkino_de" name="Netzkino.de" version="2.0.4" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Netzkino.de movies</summary>
+		<summary lang="de">Filme von Netzkino.de</summary>
+		<description lang="en">With Netzkino.de you can watch movies free and legal.</description>
+		<description lang="de">Mit Netzkino.de kannst du kostenlos und legal Spielfilme schauen.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://www.netzkino.de/</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.netzkino_de</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.youtube" name="YouTube" version="5.0.5~beta2" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Plugin for YouTube</summary>
+        <description lang="en">YouTube is a one of the biggest video-sharing websites of the world.</description>
+		<summary lang="de">Plugin für YouTube</summary>
+        <description lang="de">YouTube ist ein eines der größten Video-Sharing-Websites der Welt.</description>
+        <summary lang="pl">Wtyczka YouTube</summary>
+        <description lang="pl">YouTube jest jednym z największych na świecie serwisów do udostępniania wideo w sieci.</description>
+		<summary lang="hu">Kiegészítő  a YouTube-hoz</summary>
+        <description lang="hu">A YouTube a világ egyik legnagyobb videómegosztó weboldala.</description>
+        <summary lang="es">Plugin para YouTube</summary>
+        <description lang="es">YouTube es un uno de los mayores sitios web de intercambio de vídeos del mundo.</description>
+        <summary lang="ru">Видеодополнение YouTube</summary>
+        <description lang="ru">Данное дополнение позволяет находить и смотреть видео на всеми любимом сайте.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=200735</forum>
+		<website>http://www.youtube.com/</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.youtube</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.bromix.myvideo_de" name="MyVideo.de" version="1.0.1" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Free television with MyVideo.de: Music, Shows and Movies</summary>
+		<summary lang="de">Gratis fernsehen mit MyVideo.de: Musik, Serien und Filme</summary>
+		<description lang="en">Free television with MyVideo.de: music, tv shows and movies. The best series, shows, music videos, movies, anime series, TV shows and gaming live streams for free. The most popular TV highlights of ProSieben, Sat.1, kabel eins and Sixx free and legal.</description>
+		<description lang="de">Gratis fernsehen mit MyVideo.de: Musik, Serien und Filme. Die besten Serien, Shows, Musik-Videos, Filme, Anime-Serien, TV-Sendungen und Gaming-live-Streams kostenlos. Die beliebtesten TV-Highlights von ProSieben, Sat.1, kabeleins und Sixx gratis und legal.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://www.myvideo.de/</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.bromix.myvideo_de</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.bromix.break" name="Break Videos" version="2.0.0" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.requests" version="2.3.0"/>
+        <import addon="plugin.video.youtube" version="4.4.10" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch funny videos from break.com</summary>
+		<summary lang="de">Schaue lustige Videos von break.com</summary>
+		<description lang="en">Break is the #1 source for funny videos. Get the hilarious videos today that will be viral tomorrow. Get the most awesome videos on Earth today, because being bored sucks.</description>
+		<description lang="de">Break ist die Nr. 1 Quelle für lustige Videos. Schaue die lustigen Videos, die morgen schon viral gehen. Hole dir die eindrucksvollsten Videos der Erde heute, denn Langeweile ist blöd.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://www.break.com/</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.bromix.break</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.bromix.rtl_now" name="RTL NOW" version="2.0.7" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">RTL NOW media library</summary>
+		<summary lang="de">Mediathek für RTL NOW</summary>
+		<description lang="en">With RTL NOW many series, shows, documentaries and magazines can be seen from the program of RTL.</description>
+		<description lang="de">Mit RTL NOW können viele Serien, Shows, Dokumentationen und Magazine aus dem Programm von RTL geschaut werden.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://rtl-now.rtl.de</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.bromix.rtl_now</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.bromix.rtl2_now" name="RTL II NOW" version="2.0.7" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">RTL II NOW media library</summary>
+		<summary lang="de">Mediathek für RTL II NOW</summary>
+		<description lang="en">With RTL II NOW many series, shows, documentaries and magazines can be seen from the program of RTL II.</description>
+		<description lang="de">Mit RTL II NOW können viele Serien, Shows, Dokumentationen und Magazine aus dem Programm von RTL II geschaut werden.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://rtl2now.rtl2.de</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.bromix.rtl2_now</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.bromix.vox_now" name="VOX NOW" version="2.0.7" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">VOX NOW media library</summary>
+		<summary lang="de">Mediathek für VOX NOW</summary>
+		<description lang="en">With VOX NOW many series, shows, documentaries and magazines can be seen from the program of VOX.</description>
+		<description lang="de">Mit VOX NOW können viele Serien, Shows, Dokumentationen und Magazine aus dem Programm von VOX geschaut werden.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language>de</language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website>http://www.voxnow.de/</website>
+		<email>bromix at gmx dot net</email>
+		<source>https://github.com/bromix/plugin.video.bromix.vox_now</source>
+	</extension>
+</addon>
+
+<addon id="repository.bromix" name="Bromix Add-ons" version="1.2.2" provider-name="bromix">
+    <extension point="xbmc.addon.repository" name="Bromix Add-ons">
+		<info compressed="true">https://github.com/bromix/repository.bromix.storage/raw/master/addons.xml</info>
+		<checksum>https://github.com/bromix/repository.bromix.storage/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/bromix/repository.bromix.storage/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Bromix Add-ons</summary>
+		<summary lang="de">Bromix Add-ons</summary>
+		<description>Repository of add-ons by Bromix. Some add-ons are final and perhaps obtainable by the official repository of KODI. Add-ons in alpha and beta status are here to test exclusively and for testers to provide them with updates.</description>
+		<description lang="de">Repository an Add-ons von Bromix. Einige Add-Ons sind final und vielleicht durch das offizielle Repository von KODI erhältlich. Add-Ons in alpha- und beta-status sind hier ausschließlich zum Testen und um Tester mit Updates zu versorgen.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.pydevd" name="pydevd" version="3.4.1" provider-name="Fabio Zadrozny, Paul Backhouse">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+	    <summary lang="en">XBMC support for PyDev remote debugging in Eclipse/Aptana.</summary>
+	    <description lang="en">See here for details: http://pydev.org/manual_adv_remote_debugger.html</description>
+	    <platform>all</platform>
+	    <language></language>
+	    <license>Eclipse Public License</license>
+	    <forum></forum>
+	    <website>http://pydev.org/</website>
+	    <source>https://github.com/powlo/script.module.pydevd</source>
+	    <email></email>
+	    <disclaimer lang="en">Use at your own risk. The authors accept no liability. May cause permanent and/or catastrophic damage. Side effects include, but are not limited to, loss of memory, seizures, sudden fits of rage, sudden fits of melancholy, inability to recall prominent capital cities, lack of respect for authority, fear of cats, temporary and/or permanent black outs. Avoid inhalation. Use in a well ventilated space. Keep away from small children.</disclaimer>
+	</extension>
+</addon>
+</addons>

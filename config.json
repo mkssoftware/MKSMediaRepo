@@ -1,0 +1,119 @@
+{
+    "addons": [
+        {
+            "branch": "master", 
+            "name": "plugin.video.9gagtv", 
+            "platform": "frodo", 
+            "updated": "2014-12-07T17:36:09+01:00"
+        }, 
+        {
+            "branch": "v1.1.0", 
+            "name": "plugin.audio.soundcloud", 
+            "platform": "gotham", 
+            "updated": "2015-01-14T18:59:15+01:00", 
+            "version": "1.1.0"
+        }, 
+        {
+            "branch": "master", 
+            "name": "plugin.video.7tv", 
+            "platform": "frodo", 
+            "updated": "2014-12-22T22:44:17+01:00", 
+            "version": "2.1.3"
+        }, 
+        {
+            "branch": "master", 
+            "name": "plugin.picture.bromix.break", 
+            "platform": "frodo", 
+            "updated": "2014-11-27T20:07:02+01:00", 
+            "version": "2.0.2"
+        }, 
+        {
+            "branch": "master", 
+            "name": "plugin.video.bromix.tlc_de", 
+            "platform": "frodo", 
+            "updated": "2014-07-15T07:37:34+02:00"
+        }, 
+        {
+            "branch": "master", 
+            "name": "plugin.video.bromix.dmax_de", 
+            "platform": "frodo", 
+            "updated": "2014-07-15T07:42:17+02:00"
+        }, 
+        {
+            "branch": "master", 
+            "name": "plugin.video.netzkino_de", 
+            "platform": "frodo", 
+            "updated": "2014-12-15T23:38:44+01:00", 
+            "version": "2.0.4"
+        }, 
+        {
+            "branch": "v5.0.5-b2", 
+            "name": "plugin.video.youtube", 
+            "platform": "helix", 
+            "updated": "2015-01-18T00:36:25+01:00", 
+            "version": "5.0.5~beta2"
+        }, 
+        {
+            "branch": "master", 
+            "name": "plugin.video.bromix.myvideo_de", 
+            "platform": "bromix", 
+            "updated": "2014-12-21T02:14:40+01:00", 
+            "version": "1.0.1"
+        }, 
+        {
+            "branch": "master", 
+            "name": "plugin.video.bromix.break", 
+            "platform": "bromix", 
+            "updated": "2014-11-27T20:08:18+01:00"
+        }, 
+        {
+            "branch": "master", 
+            "name": "plugin.video.bromix.rtl_now", 
+            "platform": "bromix", 
+            "updated": "2014-12-22T22:24:10+01:00", 
+            "version": "2.0.7"
+        }, 
+        {
+            "branch": "master", 
+            "name": "plugin.video.bromix.rtl2_now", 
+            "platform": "bromix", 
+            "updated": "2014-12-22T21:18:30+01:00", 
+            "version": "2.0.7"
+        }, 
+        {
+            "branch": "master", 
+            "name": "plugin.video.bromix.vox_now", 
+            "platform": "bromix", 
+            "updated": "2014-12-22T21:19:15+01:00", 
+            "version": "2.0.7"
+        }, 
+        {
+            "branch": "master", 
+            "name": "repository.bromix", 
+            "platform": "bromix", 
+            "updated": "2015-01-10T21:23:06+01:00", 
+            "version": "1.2.2"
+        }, 
+        {
+            "branch": "master", 
+            "name": "script.module.pydevd", 
+            "platform": "bromix", 
+            "updated": "2014-04-06T16:52:10+01:00", 
+            "version": "3.4.1"
+        }
+    ], 
+    "global": {
+        "git": "https://github.com/", 
+        "ignore": [
+            ".gitignore"
+        ], 
+        "platforms": [
+            "bromix", 
+            "frodo", 
+            "gotham", 
+            "helix"
+        ], 
+        "public-repo-path": "../repo-plugins/", 
+        "user": "bromix"
+    }
+}
